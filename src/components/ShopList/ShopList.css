@@ -1,0 +1,8 @@
+.MuiPaginationItem-root {
+  color: rgb(255 255 255 / 87%) !important;
+  background-color: black !important;
+}
+
+.MuiPaginationItem-textPrimary.Mui-selected {
+  background-color: #3f51b1 !important;
+}

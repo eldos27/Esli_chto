@@ -1,0 +1,33 @@
+.footer {
+  background-color: rgba(31, 18, 18, 0.575);
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.text {
+  color: aliceblue;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media all and (max-width: 717px) {
+  .col {
+    width: 200px;
+  }
+}

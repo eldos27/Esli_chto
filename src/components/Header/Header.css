@@ -1,0 +1,29 @@
+.logo {
+  max-width: 15vw;
+  width: 100%;
+  height: 5vh;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.white {
+  color: white;
+}
+
+.navbar.active {
+  background: rgb(0, 0, 0, 0.9);
+  box-shadow: none;
+}
+
+.adaption {
+  display: block;
+}
+
+@media all and (max-width: 1080px) {
+  .adaption {
+    display: none;
+  }
+}
